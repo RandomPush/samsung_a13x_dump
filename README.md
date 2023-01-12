@@ -1,0 +1,14 @@
+# a13xins-user 13 TP1A.220624.014 M136BXXS2BVL1 release-keys
+- manufacturer: samsung
+- platform: mt6833
+- codename: a13x
+- flavor: a13xins-user
+- release: 13
+- id: TP1A.220624.014
+- incremental: M136BXXS2BVL1
+- tags: release-keys
+- fingerprint: samsung/a13xins/a13x:12/SP1A.210812.016/M136BXXS2BVL1:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: a13xins-user-13-TP1A.220624.014-M136BXXS2BVL1-release-keys
+- repo: samsung_a13x_dump
