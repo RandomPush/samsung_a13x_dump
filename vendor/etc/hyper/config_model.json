@@ -1,0 +1,32 @@
+{
+  "Resources": [
+    {
+      "Name": "CPUMaxFreq",
+      "Handler" : "sysfs",
+      "FreqTablePath" : "/sys/power/cpufreq_table",
+      "BoostPath" : "/sys/power/cpufreq_max_limit"
+    },
+    {
+      "Name": "CPUMinFreq",
+      "Handler" : "sysfs",
+      "FreqTablePath" : "/sys/power/cpufreq_table",
+      "BoostPath" : "/sys/power/cpufreq_min_limit"
+    },
+    {
+      "Name": "GPUMinFreq",
+      "Handler" : "sysfs",
+      "FreqTablePath" : "/sys/kernel/gpu/gpu_freq_table",
+      "BoostPath" : "/sys/kernel/gpu/gpu_min_clock",
+      "Priority" : "low",
+      "Values": "NONE"
+    },
+    {
+      "Name": "GPUMaxFreq",
+      "Handler" : "sysfs",
+      "FreqTablePath" : "/sys/kernel/gpu/gpu_freq_table",
+      "BoostPath" : "/sys/kernel/gpu/gpu_max_clock",
+      "Priority" : "high",
+      "Values": "NONE"
+    }
+  ]
+}
